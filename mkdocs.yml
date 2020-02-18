@@ -1,0 +1,3 @@
+site_name: Melhor site de PEI
+theme: material
+extra_css: [css/extra.css]
