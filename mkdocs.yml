@@ -1,3 +1,42 @@
-site_name: Melhor site de PEI
-theme: material
+# Project information
+site_name: V2X Stuff
+site_description: Project based on V2X communication to alert authorities about accidents
+site_author: G1
+site_url: http://xcoa.av.it.pt/~pei2019-2020_g01/
+
+# Opensource thingies
+repo_name: v2x-emergency-site
+repo_url: https://github.com/TomsFreitas/v2x-emergency-site
+edit_uri: ""
+
+#Theme stuff
+theme: 
+  name: material
+  feature:
+    tabs: true
+
+#Navbar
+nav:
+  - Home: index.md
+  - Personas and Scenarios:
+    - Personas: personas.md
+    - Scenarios: scenarios.md
+  - Manual:
+    - Manual: manual.md
+  - Technical MumboJumbo:
+    - Architecture: arch.md
+    - Requirements: reqs.md
+  - Development:
+    - Join our team: development.md
+  - Team:                       #tab name
+    - About the team: about.md   #title
+    - Logbook: logbook.md
+    - Timesheet: timesheet.md
+
+
+#Plugins, if need be
+
+#Extra CSS & Javascript here, python receives a list of files
+    
 extra_css: [css/extra.css]
+
