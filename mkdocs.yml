@@ -1,6 +1,6 @@
 # Project information
-site_name: V2X Stuff
-site_description: Project based on V2X communication to alert authorities about accidents
+site_name: Project ARC
+site_description: Autonomous Recovery Communications is a project based on V2X communications to alert authorities about car accidents
 site_author: G1
 site_url: http://xcoa.av.it.pt/~pei2019-2020_g01/
 
@@ -12,6 +12,7 @@ edit_uri: ""
 #Theme stuff
 theme: 
   name: material
+  custom_dir: html
   feature:
     tabs: true
 
@@ -19,8 +20,7 @@ theme:
 nav:
   - Home: index.md
   - Personas and Scenarios:
-    - Personas: personas.md
-    - Scenarios: scenarios.md
+    - Personas & Scenarios: pers_scen.md
   - Manual:
     - Manual: manual.md
   - Technical MumboJumbo:
@@ -28,10 +28,10 @@ nav:
     - Requirements: reqs.md
   - Development:
     - Join our team: development.md
-  - Team:                       #tab name
-    - About the team: about.md   #title
-    - Logbook: logbook.md
-    - Timesheet: timesheet.md
+  - Team:                        #tab name
+    - About the team: about.md   #sub page 1
+    - Logbook: logbook.md        #sub page 2
+    - Timesheet: timesheet.md    #sub page 3
 
 
 #Plugins, if need be
@@ -39,4 +39,5 @@ nav:
 #Extra CSS & Javascript here, python receives a list of files
     
 extra_css: [css/extra.css]
+extra_javascript: [js/extra.js]
 
