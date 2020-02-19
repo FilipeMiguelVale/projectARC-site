@@ -2,52 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>http://xcoa.av.it.pt/~pei2019-2020_g01/</loc>
-     <lastmod>2020-02-18</lastmod>
+     <lastmod>2020-02-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://xcoa.av.it.pt/~pei2019-2020_g01/personas/</loc>
-     <lastmod>2020-02-18</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>http://xcoa.av.it.pt/~pei2019-2020_g01/scenarios/</loc>
-     <lastmod>2020-02-18</lastmod>
+     <loc>http://xcoa.av.it.pt/~pei2019-2020_g01/pers_scen/</loc>
+     <lastmod>2020-02-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://xcoa.av.it.pt/~pei2019-2020_g01/manual/</loc>
-     <lastmod>2020-02-18</lastmod>
+     <lastmod>2020-02-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://xcoa.av.it.pt/~pei2019-2020_g01/arch/</loc>
-     <lastmod>2020-02-18</lastmod>
+     <lastmod>2020-02-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://xcoa.av.it.pt/~pei2019-2020_g01/reqs/</loc>
-     <lastmod>2020-02-18</lastmod>
+     <lastmod>2020-02-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://xcoa.av.it.pt/~pei2019-2020_g01/development/</loc>
-     <lastmod>2020-02-18</lastmod>
+     <lastmod>2020-02-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://xcoa.av.it.pt/~pei2019-2020_g01/about/</loc>
-     <lastmod>2020-02-18</lastmod>
+     <lastmod>2020-02-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://xcoa.av.it.pt/~pei2019-2020_g01/logbook/</loc>
-     <lastmod>2020-02-18</lastmod>
+     <lastmod>2020-02-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://xcoa.av.it.pt/~pei2019-2020_g01/timesheet/</loc>
-     <lastmod>2020-02-18</lastmod>
+     <lastmod>2020-02-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
