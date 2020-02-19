@@ -2,7 +2,7 @@
 site_name: Project ARC
 site_description: Autonomous Recovery Communications is a project based on V2X communications to alert authorities about car accidents
 site_author: G1
-site_url: http://xcoa.av.it.pt/~pei2019-2020_g01/
+site_url: http://projectarc.pt
 
 # Opensource thingies
 repo_name: v2x-emergency-site
