@@ -1,8 +1,9 @@
-# Welcome to our website
+# Welcome to Project ARC
 
-## What is [enter project name here]?
+## What is Project ARC?
 
 
-## how does it work
+
+
 
 
