@@ -5,8 +5,8 @@ site_author: G1
 site_url: http://projectarc.pt
 
 # Opensource thingies
-repo_name: v2x-emergency-site
-repo_url: https://github.com/TomsFreitas/v2x-emergency-site
+repo_name: projectARC
+repo_url: https://github.com/TomsFreitas/projectARC
 edit_uri: ""
 
 #Theme stuff
@@ -19,13 +19,13 @@ theme:
 #Navbar
 nav:
   - Home: index.md
-  - Personas and Scenarios:
-    - Personas & Scenarios: pers_scen.md
-  - Manual:
-    - Manual: manual.md
-  - Technical MumboJumbo:
+  #- Personas and Scenarios:
+    #- Personas & Scenarios: pers_scen.md
+  #- Manual:
+    #- Manual: manual.md
+  - Technical Aspects:
     - Architecture: arch.md
-    - Requirements: reqs.md
+    #- Requirements: reqs.md
   - Development:
     - Join our team: development.md
   - Team:                        #tab name
