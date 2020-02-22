@@ -1,7 +1,7 @@
 # Welcome to Project ARC
 
 ## What is Project ARC?
-Project ARC is a system designed to alert emergency services using cellular communications in the case of a car accident so it can minimize response time and keep the emergency professionals updated via a photo or video stream on a dedicated dashboard.
+Project ARC (Autonomous Rescue Communications) is a system designed to alert emergency services using cellular communications in the case of a car accident so it can minimize response time and keep the emergency professionals updated via a photo or video stream on a dedicated dashboard.
 
 ## How does Project ARC work?
 
