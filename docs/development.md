@@ -1,6 +1,5 @@
-# Task Division
-
-## Communication Aspect
+## Task Division
+### Communication Aspect
 
 1. Task:
     * Assigned to:
@@ -10,4 +9,4 @@
     * Description:
 
 
-## Web App Aspect
+### Web App Aspect
