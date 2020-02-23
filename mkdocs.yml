@@ -15,6 +15,7 @@ theme:
   custom_dir: html
   feature:
     tabs: true
+  logo: img/Logo_ARC.png
 
 # Extensions
 markdown_extensions:
@@ -58,6 +59,8 @@ nav:
     #- Requirements: reqs.md
   - Development:
     - How are we going to build this?: development.md
+  - Milestones:
+    - Delivered Milestones: milestones.md
   - Team:                        #tab name
     - Who are we?: about.md   #sub page 1
     - Logbook: logbook.md        #sub page 2
