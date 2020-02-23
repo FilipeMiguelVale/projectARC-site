@@ -16,6 +16,11 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
+     <loc>http://projectarc.pt/milestones/</loc>
+     <lastmod>2020-02-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
      <loc>http://projectarc.pt/about/</loc>
      <lastmod>2020-02-23</lastmod>
      <changefreq>daily</changefreq>

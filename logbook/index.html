@@ -90,21 +90,36 @@
       </a>
     
     
-      <header class="md-header" data-md-component="header">
+
+<!-- Application header -->
+<header class="md-header" data-md-component="header">
+
+  <!-- Top-level navigation -->
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
+
+      <!-- Link to home -->
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="http://projectarc.pt" title="Project ARC" aria-label="Project ARC" class="md-header-nav__button md-logo">
+        <a href="http://projectarc.pt"
+            title="Project ARC"
+            aria-label="Project ARC"
+            class="md-header-nav__button md-logo">
           
-            <i class="md-icon"></i>
+            <img alt="logo" src="../img/Logo_ARC.png" width="100" height="24" />
           
         </a>
       </div>
+
+      <!-- Button to toggle drawer -->
       <div class="md-flex__cell md-flex__cell--shrink">
-        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+        <label class="md-icon md-icon--menu md-header-nav__button"
+            for="__drawer"></label>
       </div>
+
+      <!-- Header title -->
       <div class="md-flex__cell md-flex__cell--stretch">
-        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+        <div class="md-flex__ellipsis md-header-nav__title"
+            data-md-component="title">
           
             <span class="md-header-nav__topic">
               Project ARC
@@ -117,9 +132,14 @@
           
         </div>
       </div>
+
+      <!-- Button to open search dialogue -->
       <div class="md-flex__cell md-flex__cell--shrink">
         
-          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          <label class="md-icon md-icon--search md-header-nav__button"
+              for="__search"></label>
+
+          <!-- Search interface -->
           
 <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
@@ -145,6 +165,8 @@
 </div>
         
       </div>
+
+      <!-- Repository containing source -->
       
         <div class="md-flex__cell md-flex__cell--shrink">
           <div class="md-header-nav__source">
@@ -171,7 +193,9 @@
     </div>
   </nav>
 </header>
-    
+
+
+
     <div class="md-container">
       
         
@@ -226,6 +250,19 @@
   
     <li class="md-tabs__item">
       
+        <a href="../milestones/" class="md-tabs__link">
+          Milestones
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
         <a href="../about/" class="md-tabs__link md-tabs__link--active">
           Team
         </a>
@@ -249,7 +286,7 @@
   <label class="md-nav__title md-nav__title--site" for="__drawer">
     <a href="http://projectarc.pt" title="Project ARC" class="md-nav__button md-logo">
       
-        <i class="md-icon"></i>
+        <img alt="logo" src="../img/Logo_ARC.png" width="48" height="48">
       
     </a>
     Project ARC
@@ -365,18 +402,54 @@
       
       
 
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Milestones
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Milestones
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../milestones/" title="Delivered Milestones" class="md-nav__link">
+      Delivered Milestones
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
   
 
 
   <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" checked>
     
-    <label class="md-nav__link" for="nav-4">
+    <label class="md-nav__link" for="nav-5">
       Team
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
-      <label class="md-nav__title" for="nav-4">
+      <label class="md-nav__title" for="nav-5">
         Team
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
