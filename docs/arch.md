@@ -13,13 +13,14 @@ When the accident is communicated to the emergency services, a lot of useful dat
 
 Mandatory Data:
 
-- Velocity
 - Location
 - Pictures of the accident
 - Video of the accident
 - Several types of information retrieved from the vehicles CAN Bus:
     - Presence sensors
     - Airbag Deployment
+    - Velocity
+    - Seatbelt Sensors
   
 Data to be sent if time permits:
 
