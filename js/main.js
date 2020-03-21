@@ -96,10 +96,10 @@ autoplaySpeed: 800,
   }
 });
 
-document.getElementById("clock_text").innerHTML = "18 Mar 2020"
+document.getElementById("clock_text").innerHTML = "22 Apr 2020"
 
 // count_dwon
-$('#clock').countdown('2020/03/18', function(event) {
+$('#clock').countdown('2020/04/22', function(event) {
   $(this).html(event.strftime('<div class="countdown_time"><div class="single_countdown"><h3>%D</h3><span>days</span></div><div class="single_countdown"><h3>%H</h3><span>Hours</span></div><div class="single_countdown"><h3>%M</h3><span>Minutes</span></div><div class="single_countdown"><h3>%S</h3><span>Seconds</span></div></div>'));
 });
 
