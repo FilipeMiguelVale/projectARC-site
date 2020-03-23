@@ -24,6 +24,11 @@
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+    <style>
+        html {
+          scroll-behavior: smooth;
+        }
+    </style>    
 </head>
 
 <body>
@@ -49,7 +54,11 @@
                                 <nav>
                                     <ul id="navigation">
                                         <li><a class="active" href="">home</a></li>
-                                        <li><a href="Technical_Aspects/">Learn more</a></li>
+                                        <li><a href="Technical_Aspects/">Learn more <i class="ti-angle-down"></i></a>
+                                            <ul class="submenu">
+                                                <li><a href="/Technical_Aspects/#Architecture">Architecture</a></li>
+                                            </ul>
+                                        </li>
                                         <li><a href="Milestones/">Milestones</a></li>
                                         <li><a href="Team/">Team</a></li>
                                         <li><a href="Contact/">Contact</a></li>
