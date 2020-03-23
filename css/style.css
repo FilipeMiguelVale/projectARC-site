@@ -1534,14 +1534,14 @@ h3 {
   font-weight: 400;
   line-height: 28px;
   color: #808080;
-  margin-top: 30px;
-  margin-bottom: 60px;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
 @media (max-width: 767px) {
   /* line 93, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
   .about_area .about_info p {
-    margin-bottom: 30px;
+    margin-bottom: 2px;
   }
 }
 
@@ -2088,20 +2088,20 @@ h3 {
 
 /* line 8, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
 .event_area.plus_padding {
-  margin-top: 200px;
+  margin-top: 50px;
 }
 
 @media (max-width: 767px) {
   /* line 8, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
   .event_area.plus_padding {
-    margin-top: 60px;
+    margin-top: 50px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 8, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
   .event_area.plus_padding {
-    margin-top: 60px;
+    margin-top: 50px;
   }
 }
 

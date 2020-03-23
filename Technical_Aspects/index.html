@@ -50,7 +50,11 @@
                                 <nav>
                                     <ul id="navigation">
                                         <li><a href="">home</a></li>
-                                        <li><a class="active" href="Technical_Aspects/">Learn more</a></li>
+                                        <li><a class="active" href="Technical_Aspects/">Learn more<i class="ti-angle-down"></i></a>
+                                            <ul class="submenu">
+                                                <li><a href="">Architecture</a></li>
+                                            </ul>
+                                        </li>
                                         <li><a href="Milestones/">Milestones</a></li>
                                         <li><a href="Team/">Team</a></li>
                                         <li><a href="Contact/">Contact</a></li>
@@ -115,7 +119,61 @@
         </div>
     </div>
     <!-- slider_area_end -->
-
+    <div class="about_area">
+        <div class="shape-1 d-none d-xl-block">
+            <img src="img/about/shap1.png" alt="">
+        </div>
+        <div class="shape-2 d-none d-xl-block">
+            <img src="img/about/shap2.png" alt="">
+        </div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-6 col-md-6">
+                    <div class="about_thumb">
+                        <img src="img/arch.png"alt="">
+                    </div>
+                </div>
+                <div class="col-xl-5 offset-xl-1 col-md-6">
+                    <div class="about_info">
+                        <div class="section_title">
+                            <a  ></a>
+                            <span class="sub_heading">Architecture</span>
+                            <h3>How does Project ARC work?</h3>
+                        </div>
+                        <p>In the event of an accident, the two cars involved start sending emergency messages using <a href="https://en.wikipedia.org/wiki/Dedicated_short-range_communications">DSRC</a> to all nearby vehicles. Using a combination of factors (namely distance) a gateway car is chosen to communicate the accident to the emergency services.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    
+        <div class="container box_1170">
+            <div class="about_info">
+                <div class="section_title">
+                    <h3 >What can the emergency services expect?</h3>
+                </div>
+                <p class="sample-text"> When the accident is communicated to the emergency services, a lot of useful data can be sent as well.
+                    <ul class="unordered-list">
+                        <p>Mandatory Data:</p>
+                        <li><p>Location</p></li>
+                        <li><p>Pictures of the accident</p></li>
+                        <li><p>Video of the accident</p></li>
+                        <li><p>Several types of information retrieved from the vehicles CAN Bus:</p>
+                            <ul>
+                                <li><p>Presence sensors</p></li>
+                                <li><p>Airbag Deployment</p></li>
+                                <li><p>Velocity</p></li>
+                                <li><p>Seatbelt Sensors</p></li>
+                            </ul>
+                        </li>
+                    <p>Data to be sent if time permits:</p>
+                    <li><p>Livestream of the accident</p></li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </section>
+    </div>
 <!-- footer_start -->
     <footer class="footer footer_bg_1">
         <div class="circle_ball d-none d-lg-block">
