@@ -11,7 +11,7 @@
     <!-- <link rel="manifest" href="site.webmanifest"> -->
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
     <!-- Place favicon.ico in the root directory -->
-    <base href="../../">
+    <base href="../">
     <!-- CSS here -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -48,8 +48,6 @@
         data1.addColumn('string', 'Dependencies');
 
         data1.addRows([
-            ['M', 'Milestones', "Milestones",
-            new Date(2020, 1, 26), new Date(2020, 5, 3), null, 100, null],
             ['M2', 'Lifecycle architecture M2', "Milestones",
             new Date(2020, 1, 26), new Date(2020, 2, 11), null, 100, null],
             ['M3', 'Work on Prototype M3',"Milestones",
@@ -57,7 +55,7 @@
             ['M4', 'Project presentation M4', "Milestones",
             new Date(2020, 3, 16), new Date(2020, 4, 20), null, 0, null],
             ['Students@DETI', 'Students@DETI', "Milestones",
-            new Date(2020, 4, 21), new Date(2020, 5, 3), null, 0, null],
+            new Date(2020, 4, 21), new Date(2020, 5, 10), null, 0, null]
 
         ]);
         var data_coms = new google.visualization.DataTable();
@@ -73,8 +71,6 @@
         data_coms.addRows([
             
             //comunications
-            ['Communication Module', 'Communication Module', "Communication Module",
-            new Date(2020, 1, 26), new Date(2020, 5, 3), null, 100, null],
             ['Hardware Selection', 'Hardware Selection', "Communication Module",
             new Date(2020, 1, 26), new Date(2020, 2, 1), null, 100, null],
             ['CPI', 'Communication Protocol Investigation', "Communication Module",
@@ -87,21 +83,13 @@
             new Date(2020, 3, 3), new Date(2020, 3, 20), null, 0, null],
             ['Polish & Integrate', 'Polish & Integrate', "Communication Module",
             new Date(2020, 3, 21), new Date(2020, 4, 10), null, 0, null],
-            ['"Documentation', 'Documentation', "Communication Module",
-            new Date(2020, 1, 26), new Date(2020, 5, 3), null, 0, null],
             ['Communication Module', 'Extra: Livestream', "Communication Module",
-            new Date(2020, 1, 26), new Date(2020, 5, 3), null, 100, null],
+            new Date(2020, 4, 11), new Date(2020, 5, 10), null, 0, null]
 
         ]);
 
 
-        var options = {
-
-          height: 400,
-          gantt: {
-            trackHeight: 30,
-          }
-        };
+        
         var data_App = new google.visualization.DataTable();
         data_App.addColumn('string', 'Task ID');
         data_App.addColumn('string', 'Task Name');
@@ -115,31 +103,70 @@
         data_App.addRows([
             
             //web App
-            ['Web App Module', 'Web App Module', "Web App Module",
-            new Date(2020, 1, 26), new Date(2020, 5, 3), null, 100, null],
             ['Investigate frameworks ', 'Investigate frameworks ', "Web App Module",
-            new Date(2020, 1,26 ), new Date(2020, 2,4 ), null, 0, null],
+            new Date(2020, 1,26 ), new Date(2020, 2,4 ), null, 100, null],
             ['Framework configuration', 'Framework configuration', "Web App Module",
-            new Date(2020, 2, 5), new Date(2020,2 ,29 ), null, 0, null],
+            new Date(2020, 2, 5), new Date(2020,2 ,29 ), null, 25, null],
             ['Design Interface', 'Design Interface', "Web App Module",
-            new Date(2020, 2, 13), new Date(2020, 3,16 ), null, 0, null],
+            new Date(2020, 2, 13), new Date(2020, 3,16 ), null, 33, null],
             ['Database', 'Database', "Web App Module",
-            new Date(2020,2 ,23 ), new Date(2020,3 ,11 ), null, 0, null],
+            new Date(2020,2 ,23 ), new Date(2020,3 ,11 ), null, 50, null],
             ['Video/Data Processing ', 'Video/Data Processing ', "Web App Module",
             new Date(2020, 2, 30), new Date(2020,3 ,23 ), null, 0, null],
             ['Polish & Integrate', 'Polish & Integrate', "Web App Module",
             new Date(2020, 3,24 ), new Date(2020,5 ,10 ), null, 0, null],
+            ['Communication Module', 'Extra: Livestream', "Web App Module",
+            new Date(2020, 4, 11), new Date(2020, 5, 10), null, 0, null]
 
 
         ]);
+
+        var options_Miles = {
+
+          height: 200,
+          gantt: {
+            trackHeight: 35,
+            palette: [
+                {
+                "color": "#ffa500",
+                "dark": "#ff6600",
+                "light": "#f4c7c3"
+                }
+                ]
+          }
+        };
+
+        var options_Coms = {
+
+          height: 300,
+          gantt: {
+            trackHeight: 35,
+            palette: [
+                {
+                "color": "#e52635",
+                "dark": "#5000af",
+                "light": "#f4c7c3"
+                }
+                ]
+          }
+        };
+
+        var options_App = {
+
+          height: 250,
+          gantt: {
+            trackHeight: 35,
+
+          }
+        };
 
         var chart_Miles = new google.visualization.Gantt(document.getElementById('chart_Miles'));
         var chart_Coms = new google.visualization.Gantt(document.getElementById('chart_Coms'));
         var chart_App = new google.visualization.Gantt(document.getElementById('chart_App'));
 
-        chart_Miles.draw(data1, options);
-        chart_Coms.draw(data_coms, options);
-        chart_App.draw(data_App, options);
+        chart_Miles.draw(data1, options_Miles);
+        chart_Coms.draw(data_coms, options_Coms);
+        chart_App.draw(data_App, options_App);
       }
     </script>    
 </head>
@@ -172,7 +199,11 @@
                                                 <li><a href="/Technical_Aspects/#Architecture">Architecture</a></li>
                                             </ul>
                                         </li>
-                                        <li><a class="active" href="Milestones/">Milestones</a></li>
+                                        <li><a class="active" href="Milestones/">Milestones <i class="ti-angle-down"></i></a>
+                                            <ul class="submenu">
+                                                <li><a href="/Gantt">Gantt</a></li>
+                                            </ul>
+                                        </li>
                                         <li><a href="Team/">Team</a></li>
                                         <li><a href="Contact/">Contact</a></li>
                                     </ul>
@@ -242,12 +273,25 @@
         
         <div class="container">
             <div class="double_line">
+                <div class="single_speaker">
+                    <div class="section_title">
+                        <h3><center>Milestones</center></h3>
+                    </div>
+                </div>
                 <div id="chart_Miles"></div>
+                <div class="single_speaker">
+                    <div class="section_title">
+                        <h3><center>Communication Module</center></h3>
+                    </div>
+                </div>
                 <div id="chart_Coms"></div>
+                <div class="single_speaker">
+                    <div class="section_title">
+                        <h3><center>Web App Module</center></h3>
+                    </div>
+                </div>
                 <div id="chart_App"></div>
             </div>
-
-
         </div>
     </div>
 
