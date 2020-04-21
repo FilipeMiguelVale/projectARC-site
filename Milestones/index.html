@@ -28,6 +28,11 @@
         html {
           scroll-behavior: smooth;
         }
+
+        #i_video {
+        display:none;
+        };
+
     </style>    
 </head>
 
@@ -134,8 +139,52 @@
     <div class="event_area plus_padding">
         <h1 class="vr_text d-none d-lg-block">Schedule  Milestone </h1>
         <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-lg-3">
+                    <div class="date">
+                        <h3>Milestone 3 (22/04/2020)</h3>
+                    </div>
+                </div>
+                <div class="col-xl-9 col-lg-9">
+                    <div class="single_speaker">
+                        <img src="img/Team/seaker4.png" alt="">
+                        <div class="speaker-name">
+                            <div class="heading d-flex justify-content-between align-items-center">
+                                <span><a href="/Milestones/#i_video" onclick="myFunction()" >Video Prototype</a></span>
+                            </div>
+                            <p>Check Here our Video</p>
+                            <iframe id="i_video" width="560" height="315" src="https://www.youtube.com/embed/CECgE60JWRY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"  allowfullscreen></iframe>
+                            <script>
+                            function myFunction() {
+                               var iframe = document.getElementById('i_video');
+                                iframe.style.display = 'block';
+                            }
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="double_line">
                 <div class="row">
+                <div class="col-xl-3 col-lg-3">
+                    <div class="date">
+                        <h3>Milestone 2 (11/03/2020)</h3>
+                    </div>
+                </div>
+                <div class="col-xl-9 col-lg-9">
+                    <div class="single_speaker">
+                        <img src="img/Team/seaker4.png" alt="">
+                        <div class="speaker-name">
+                            <div class="heading d-flex justify-content-between align-items-center">
+                            <span><a href=https://projectarc.pt/files/Presentation_M2.pdf target="_blank">Presentation</a></span>
+                            </div>
+                            <p>Check Here our Presentation</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="row">
                     <div class="col-xl-3 col-lg-3">
                         <div class="date">
                             <h3>Milestone 1 (26/02/2020)</h3>
@@ -170,27 +219,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            
-            <div class="row">
-                <div class="col-xl-3 col-lg-3">
-                    <div class="date">
-                        <h3>Milestone 2 (11/03/2020)</h3>
-                    </div>
-                </div>
-                <div class="col-xl-9 col-lg-9">
-                    <div class="single_speaker">
-                        <img src="img/Team/seaker4.png" alt="">
-                        <div class="speaker-name">
-                            <div class="heading d-flex justify-content-between align-items-center">
-                                <span><a href=https://projectarc.pt/files/Presentation_M2.pdf target="_blank">Presentation</a></span>
-                            </div>
-                            <p></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                </div>            
         </div>
     </div>
 
